@@ -67,7 +67,17 @@ SELECT AVG(Precio_articulo) AS precio_promedio FROM articulo;
 
 ![Consulta 8](img/consulta_8.png  "Consulta 8")
 
-
-
 9. Mostrar el precio promedio de los artículos cuyo código de fabricante sea fab02
 
+SELECT AVG(precio_articulo) AS precio_promedio FROM articulo WHERE id_fabricante = "fab02"
+
+![Consulta 9](img/consulta_9.png  "Consulta 9")
+
+10. Obtener el número de artículos cuyo precio sea mayor o igual a $50000.
+
+
+11. Obtener el nombre y el precio de los artículos cuyo precio sea igual o mayor a $50000 y ordenarlos descendentemente por precio, y luego ascendentemente por nombre.
+12. Mostrar el listado completo de artículos, incluyendo por cada artículo los datos del artículo y de su fabricante.
+13. Obtener un listado de artículos, incluyendo el nombre del artículo, su precio y el nombre de su fabricante.
+14. Obtener el precio promedio de los productos de cada fabricante, mostrando solo los códigos de los fabricantes.
+15. Mostrar el precio promedio de los productos de cada fabricante, mostrando el nombre del fabricante.
