@@ -100,4 +100,10 @@ SELECT * FROM articulo JOIN fabricante ON articulo.id_fabricante = fabricante.id
 14. Obtener el precio promedio de los productos de cada fabricante, mostrando solo los códigos de los 
 fabricantes.
 
-15. Mostrar el precio promedio de los productos de cada fabricante, mostrando el nombre del fabricante.
+SELECT id_fabricante, AVG(precio_articulo) AS precio_promedio FROM articulo GROUP BY id_fabricante;
+
+![Consulta 13](img/consulta_13.png  "Consulta 13")
+
+15. Mostrar el precio promedio de los productos de cada fabricante, mostrando el nombre del 
+fabricante.
+
