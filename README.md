@@ -60,3 +60,14 @@
 "SELECT nombre_articulo AS articulo, precio_articulo / 4300 AS PRECIO_USD FROM articulo;"
 
 ![Consulta 7](img/consulta_7.png  "Consulta 7")
+
+8. Mostrar el precio promedio de todos los productos.
+
+SELECT AVG(Precio_articulo) AS precio_promedio FROM articulo;
+
+![Consulta 8](img/consulta_8.png  "Consulta 8")
+
+
+
+9. Mostrar el precio promedio de los artículos cuyo código de fabricante sea fab02
+
