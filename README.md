@@ -88,10 +88,13 @@ SELECT COUNT(*) AS cantidad_articulos FROM articulo WHERE precio_articulo >= 500
 
 12. Mostrar el listado completo de artículos, incluyendo por cada artículo los datos del artículo y de su fabricante.
 
+SELECT * FROM articulo JOIN fabricante ON articulo.id_fabricante = fabricante.id_fabricante;
 
+![Consulta 12](img/consulta_12.png  "Consulta 12")
 
 13. Obtener un listado de artículos, incluyendo el nombre del artículo, su precio y el nombre de su
  fabricante.
+
 
 
 14. Obtener el precio promedio de los productos de cada fabricante, mostrando solo los códigos de los 
